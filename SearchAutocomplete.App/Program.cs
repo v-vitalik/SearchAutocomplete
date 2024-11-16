@@ -1,6 +1,7 @@
 ﻿using SearchAutocomplete.App;
 
-var fileLines = File.ReadAllLines("C:\\Repos\\ConsoleSolution\\LyftLaptop\\input.txt");
+var filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "input.txt");
+var fileLines = File.ReadAllLines(filePath);
 var nString = fileLines[0];
 int n = int.Parse(nString);
 var mString  = fileLines[1];
