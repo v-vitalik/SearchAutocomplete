@@ -14,7 +14,8 @@ The application reads its input from a file named input.txt:
 - The following m lines contain the input strings for which autocomplete suggestions are needed.
 
 Example `input.txt`
-```3
+```
+3
 2
 apple
 banana
